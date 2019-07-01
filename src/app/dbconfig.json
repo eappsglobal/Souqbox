@@ -1,0 +1,64 @@
+  {
+  "intro": {
+      "tagline": "Old wisdom - new ways of working.",
+      "description":"Souq is an Arabic term for the commercial quarter where the markets are. SouqBox is the digital equivalent.Today digital marketplaces have become some of the best-known and most valuable websites in the world. Amazon, Airbnb, and Uber are all examples of marketplaces where buyers and sellers meet to trade.",
+"desc":"These are all built for consumer customers but in B2B there is a need to barter whilst trading. Now with SouqBox, you can launch your own B2B trading ecommerce site and this can evolve into a full blown marketplace at your pace.  Best of all, we’ve already taken care of the technical bit so you don’t even need to own a website!",
+      "link": "Learnmore",
+      "svgtext": "Take your business online now",
+      "headingone": "Souqbox is building the future",
+      "headingtwo": "of B2B  online.",
+      "headingcyan": "Take 30 seconds to join the revolution.",
+      "buttontext": "Take your business online now",
+      "learn": "Learn more",
+      "clienttitle": "Meet our happy customers",
+      "image": [
+        {"src": "feefo-review.png"},
+        {"src": "BrilliantBusiness_logo.png"},
+        {"src": "EBA_RSM-Logo.png"}
+        ],
+        "client": [
+          {"src": "client-1.png", "text":"Tools & Woodcraft"},
+          {"src": "client-2.png","text":"Marine Equipment"},
+          {"src": "client-3.png","text":"Wine Materials"}
+          ],
+          "svgimage": [
+            {"src": "Shop.svg", "text":"Ready to launch and trade in 20 minutes"},
+            {"src": "chat.svg","text":"Step by step, easy to follow set up"},
+            {"src": "map.svg","text":"We will be with you every step of the way"}
+            ]
+  },
+  "news": {
+    "headline": "Business is always evolving & changing.Stay tuned here for the latest in market trends & business innovations.",
+   " blogimg": "blog-img.png",
+    "posts": [
+      {"id": 1, "headnews": "Startup CTO Opportunity at Souqbox", "text": "Startup CTO Opportunity at Souqbox SouqBox are looking to appoint a technical leader to join our founding team. This is a great opportunity for someone looking to take the next step of being a startup CTO. This is a key appointment required to drive the technological story for us as[..]"},
+      {"id": 2, "headnews": "Newbury Britian’s top tech town", "text": "RESEARCH NAMES NEWBURY TOP TECH TOWN IN THE UK Souqbox founder Campbell Murray was on air at BBC Berkshire (22 May 2018) interviewed by Phil Kennedy about the recent publication of the UK Tech scene which named Newbury Top Tech Town in the UK.  Play from 12mins 10 seconds in if you want to[..]"},
+      {"id": 3, "headnews": "Why the B2B Online Marketplace is the Future", "text": "Why the B2B Online Marketplace is the Future There are 4 recognised evolutionary steps in e-commerce. Many organisations still have generation 1 sites which are pure information sites and any purchasing must fall back to email/phone calls to complete. Consumer-facing websites rarely survive this way and have largely evolved through the use of basket[..]"},
+      {"id": 4, "headnews": "10 industries perfect for B2B opportunities", "text": "10 Industries Perfect for B2B Marketplaces Online marketplaces, also known as platform companies, are sprouting up everywhere and redefining business in every industry. “The Uber of ….” has become shorthand for tech startups looking to redefine the way everything is delivered. To date, the majority of marketplaces have opened within the B2C sector.[..]"},
+      {"id": 5, "headnews": "How you can Join the B2B digital revolution", "text": "How You Can Join the B2B Digital Revolution (def - Revolution 'A dramatic and wide-reaching change in conditions, attitudes, or operation') Are you ready to elevate your brand to the next level? If you’re already running a successful business trading B2B products offline and want to take advantage of the benefits offered[..]"}
+      ]
+
+  },
+  "howitwork": {
+    "videotitle": "Here is how it works",
+    "headline": "WHAT OUR CLIENTS SAY ABOUT SOUQBOX",
+    "description": "From our initial requirement to full build, Souqbox were brilliant to work with and flexible at every stage as we refined our product. We were able to seamlessly integrate this into our business and make it work for us really quickly. A great experience and a fantastic, easy to use product that I am very happy to highly recommend. Thank you Souqbox.",
+    "client": "Andy Gomarsall MBE, Director, N2S Ltd & Stockex",
+    "buttontext": "I Want in !",
+    "works": [
+      {"number": "26", "text": "sales per hour through our site"},
+      {"number": "6.7", "text": "Trillion GBP projected value of ecommerce"},
+      {"number": "3", "text": "Competitors who will eventually do this..."}
+      ]
+  },
+  "casestudies": {
+    "title": "We love bringing B2B business online, especially for the first time.Read about some of our rapidly expanding customers here.",
+    "headline": "I should have done this sooner.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "client": "Joanna Alpe, The wine store",
+    "clienttwo":"Will Berger, GadgetsGlobal",
+    "buttontext": "Get me Started"
+  }
+
+
+  }

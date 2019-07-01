@@ -1,0 +1,21 @@
+<section class="banner pb-100">
+<div class="container">
+<h3 class="business-tuned mw-800">{{news.headline}}</h3>
+</div>
+</section>
+
+<section class="bg-gray pt-80  news-page white">
+<div class="container px-xl-0">
+<div class="sale" *ngFor="let post of news.posts">
+<div class="col-lg-4 col-md-4 col-sm-1 trust pb-50 pt-50">
+<div class="start-up">
+<h4>{{post.headnews}}</h4>
+    <p>{{post.text}}</p>
+<a routerLink="/{{post.link}}" class="">Read More..</a>
+</div>
+</div>
+
+</div>
+    </div>
+</section>
+

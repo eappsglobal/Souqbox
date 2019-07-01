@@ -1,0 +1,60 @@
+<section class="customers dark-grey pt-50">
+    <div class="container px-xl-0">
+
+    <div class="container contact-form">
+    <div class="back">
+    <div class="contact-image">
+    <img src="../../assets/images/{{contactinfo.picture}}" class="rocket" alt="rocket_contact"/>
+    </div>
+
+   <form #contactForm="ngForm" (ngSubmit)="mailNotification(contactForm.value)">
+ 
+<h3>{{contactinfo.drop}}</h3>
+          <div class="row">
+            <div class="col-md-6">
+            <div class="form-group">
+               <input type="text" name="name" id="name" class="form-control" placeholder="Your Name *" value="" required ngModel #name="ngModel" />
+               <div *ngIf="name.errors && (name.dirty || name.touched)">
+                <span class="tooltip-content " [hidden]="!name.errors.required"> *Name is Required. </span> </div>
+              </div>
+              <div class="form-group">
+               <input type="email" name="email" id="email"  class="form-control" placeholder="Your Email *" value="" required ngModel #email="ngModel" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"/>
+               <div *ngIf="email.errors && (email.dirty || email.touched)"> <span class="tooltip-content " [hidden]="!email.errors.required"> *Email is Required. </span> <span class="tooltip-content " [hidden]="!email.errors.pattern">*Please enter a valid email id </span> </div>
+             </div>
+             <div class="form-group">
+               <input  type="text"id="phone" name="phone" class="form-control" placeholder="Your Phone Number *" value=""required ngModel #phone="ngModel"maxlength="15" pattern="[0-9]+" />
+               <div *ngIf="phone.errors && (phone.dirty || phone.touched)"> <span class="tooltip-content " [hidden]="!phone.errors.required"> *Phone Number is Required. </span> <span class="tooltip-content " [hidden]="!phone.errors.pattern">*Please enter numbers only </span> </div>
+            </div>
+            </div>
+            <div class="col-md-6">
+             <div class="form-group">
+               <textarea name="message" id="message" class="form-control" placeholder="Your Message *" required ngModel #message="ngModel" style="width: 100%; height: 150px;"></textarea>
+               <div *ngIf="message.errors && (message.dirty || message.touched)"> <span class="tooltip-content " [hidden]="!message.errors.required"> *Message is Required. </span> </div>
+
+             </div>
+              <div class="form-group">
+                <button type="submit" name="btnSubmit" [disabled]="contactForm.pristine || contactForm.invalid" class="next contact">Send Message</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      <div *ngIf="isMailAlert">
+      <h4 style="text-align:center">Thank you for contacting us.</h4>
+         <p style="text-align:center">We will contact you very soon!</p>
+        </div> 
+        <div *ngIf="isMailAlertFailed">
+      <h4 style="text-align:center">Mail notification failed , please reach support team  </h4>
+        </div> 
+        <br/>
+    <div class="row pb-50">
+      <div class="col-lg-12">
+          <h3 class="f-26">{{contactinfo.email1}}</h3>
+    <p class="text-center"><a href="mailto:getstarted@souqbox.net">{{contactinfo.emailenquiry}}</a></p>
+      </div>
+    </div>
+    </div><!-- new row ends -->
+    </div>
+    </div>
+
+
+    </section>

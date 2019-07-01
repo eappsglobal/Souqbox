@@ -1,0 +1,44 @@
+<section class="bg-gray pt-50 text-center how-it-work">
+<div class="container px-xl-0">
+<div class="row pb-100">
+<div class="col-lg-12">
+<h3 class="color-white f-30 text-center pb-50 enterprise-solution">{{enterprise.heading}}</h3>
+</div>
+<div class="col-lg-12 text-left">
+<p class="color-white f-20 pb-10">{{enterprise.content1}}</p>
+<p class="color-white f-20 pb-10">{{enterprise.content2}}</p>
+<p class="color-white f-20 pb-10">{{enterprise.content3}}</p>
+</div>
+<div class="col-lg-12 components pt-50" >
+<h2 class="text-left color-white f-30 pb-20">{{enterprise.discovery}}</h2>
+<div *ngFor="let discover of enterprise.discovers">
+<ul>
+<li>{{discover.text}}</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-12 components pt-50">
+<h2 class="text-left color-white f-30 pb-20">{{enterprise.design}}</h2>
+<div *ngFor="let designs of enterprise.designtab">
+<ul>
+<li>{{designs.text}}</li>
+</ul>
+</div></div>
+<div class="col-lg-12 components pt-50">
+<h2 class="text-left color-white f-30 pb-20">{{enterprise.build}}</h2>
+<div *ngFor="let builds of enterprise.buildtab">
+<ul>
+<li>{{builds.text}}</li>
+</ul>
+</div></div>
+<div class="col-lg-12 components pt-50">
+<h2 class="text-left color-white f-30 pb-20">{{enterprise.operate}}</h2>
+<div *ngFor="let operates of enterprise.operatetab">
+<ul>
+<li>{{operates.text}}</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>

@@ -1,0 +1,78 @@
+<section class="banner pb-35">
+<div class="container">
+      <h1 class="big color-white text-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+     {{intro.headingone}}</h1>
+       <h1 class="big color-white text-center" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+       {{intro.headingtwo}}</h1>
+      <h1 class="mt-25 cyen-color-over big text-center">
+       <span data-aos-duration="600" data-aos="fade-down" data-aos-delay="300">
+       {{intro.headingcyan}}</span> </h1>
+      <div class="pt-60 text-center"><a routerLink="/Contact" class="souq-btn"> {{intro.buttontext}}</a></div>
+      <div class="pt-40 color-white f-20 text-center">{{intro.learn}}</div>
+      <div class="pt-20 btn-arrow">
+       <a pageScroll href="About#myanchor">
+
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <path class="st0" d="M437,75C388.7,26.6,324.4,0,256,0S123.3,26.6,75,75S0,187.6,0,256s26.6,132.7,75,181s112.6,75,181,75
+	s132.7-26.6,181-75s75-112.6,75-181S485.4,123.3,437,75z M256,472c-119.1,0-216-96.9-216-216S136.9,40,256,40s216,96.9,216,216
+	S375.1,472,256,472z"/>
+          <polygon class="st0" points="394.3,222 366,193.7 256,303.7 146,193.7 117.7,222 256,360.3 "/>
+        </svg>
+        </a>
+      </div>
+    </div>
+    </section>
+<section class="pb-45" data-scroll-index="1" id="myanchor">
+    <div class="container px-xl-0">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10 pt-70 ">
+          <h2 class="f-26 pb-20 color-white">{{intro.tagline}}</h2>
+          <p class="text-left color-white f-22 lh-30">{{intro.description}}</p>
+          <p class="text-left color-white f-22 lh-30">{{intro.desc}}</p>
+          <div class="pt-40"><a routerLink="/Our-story" class="souq-btn">{{intro.link}}</a></div>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </section>
+
+ <section class="feature_2 pb-100 pt-80">
+    <div class="container px-xl-0">
+       <div class="about-icon-box">
+        <div *ngFor="let svgimages of intro.svgimage">
+        <div class="col-lg-4 col-md-4 col-sm-12 trust">
+          <div class="box-columns mb-10">
+            <div class="icon">
+            <img src="../../assets/images/{{svgimages.src}}" />
+            </div>
+            <div class="col-lg-12 content-text pt-50">
+              <h3 class="f-30 color-white text-center text-size">{{svgimages.text}}</h3>
+            </div>
+           </div>
+                  </div>
+                  </div> </div>
+ <div class="col-lg-12 pb-50 text-center onlinebtn">
+          <a routerLink="/Contact" class="souq-btn">{{intro.svgtext}}</a>
+        </div>
+        </div>
+  </section>
+
+<section class="customers dark-grey pt-80">
+  <div class="container px-xl-0">
+    <div class="col-md-12">
+
+      <h2 class="f-40 color-white text-left pl-20 pb-50">{{intro.clienttitle}}</h2>
+    </div>
+    <div *ngFor="let clients of intro.client">
+      <div class="col-lg-4 col-sm-6  mb-30 trust">
+      <div class="company_logos">
+      <a href="{{clients.link}}">
+      <img src="../../assets/images/{{clients.src}}" alt="image" class="img-fluid logo-icon center" /></a>
+      </div>
+        <h3 class="f-24 pt-20 color-white text-center company_contents">{{clients.text}}</h3>
+      </div>
+    </div>
+  </div>
+</section>
